@@ -1,32 +1,18 @@
-# Household Electric Power Consumption
+# Restaurant Revenue Prediction
 
-**Dataset Information**
+**Data Description**
 
-This archive contains 2075259 measurements gathered between December 2006 and November 2010 (47 months).
-Notes:
+TFI has provided a dataset with 137 restaurants in the training set, and a test set of 100000 restaurants. The data columns include the open date, location, city type, and three categories of obfuscated data: Demographic data, Real estate data, and Commercial data. The revenue column indicates a (transformed) revenue of the restaurant in a given year and is the target of predictive analysis. 
 
-1.(globalactivepower*1000/60 - submetering1 - submetering2 - submetering3) represents the active energy consumed every minute (in watt hour) in the household by electrical equipment not measured in sub-meterings 1, 2 and 3.
+**Data  fieds**
 
-2.The dataset contains some missing values in the measurements (nearly 1,25% of the rows). All calendar timestamps are present in the dataset but for some timestamps, the measurement values are missing: a missing value is represented by the absence of value between two consecutive semi-colon attribute separators. For instance, the dataset shows missing values on April 28, 2007.
+Id : Restaurant id. 
+Open Date : opening date for a restaurant
+City : City that the restaurant is in. Note that there are unicode in the names. 
+City Group: Type of the city. Big cities, or Other. 
+Type: Type of the restaurant. FC: Food Court, IL: Inline, DT: Drive Thru, MB: Mobile
+P1, P2 - P37: There are three categories of these obfuscated data. Demographic data are gathered from third party providers with GIS systems. These include population in any given area, age and gender distribution, development scales. Real estate data mainly relate to the m2 of the location, front facade of the location, car park availability. Commercial data mainly include the existence of points of interest including schools, banks, other QSR operators.
+Revenue: The revenue column indicates a (transformed) revenue of the restaurant in a given year and is the target of predictive analysis. Please note that the values are transformed so they don't mean real dollar values. 
 
-**Attribute Information:**
 
-1.date: Date in format dd/mm/yyyy
-
-2.time: time in format hh:mm:ss
-
-3.globalactivepower: household global minute-averaged active power (in kilowatt)
-
-4.globalreactivepower: household global minute-averaged reactive power (in kilowatt)
-
-5.voltage: minute-averaged voltage (in volt)
-
-6.global_intensity: household global minute-averaged current intensity (in ampere)
-
-7.submetering1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
-
-8.submetering2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
-
-9.submetering3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
-
-[Here is a link to the dataset](https://www.kaggle.com/uciml/electric-power-consumption-data-set)
+[Here is a link to the dataset](https://www.kaggle.com/c/restaurant-revenue-prediction/data?select=test.csv.zip)
