@@ -1,5 +1,6 @@
 # Restaurant Revenue Prediction
-*Predict annual restaurant sales based on objective measurements*
+TFI is the company behind some of the world's most well-known brands; Burger King, Sbarro, Popeyes, Usta Donerci, and Arby’s. With over 1,200 quick service restaurants across the globe, they employ over 20,000 people in Europe and Asia and make significant daily investments in developing new restaurant sites. Since new restaurant sites take large investments of time and capital to get up and running, deciding when and where to open new restaurants is largely a subjective process based on the personal judgement and experience of development teams. Hence, this project will, *predict annual restaurant sales based on objective measurements*.
+
 
 **Data Description**
 
