@@ -1,3 +1,4 @@
+# GROUP 2 WORK
 ## Restaurant Revenue Prediction
 
 Tab Food Investments(TFI) is the company behind some of the world's most well-known brands; Burger King, Sbarro, Popeyes, Usta Donerci, and Arby’s. They employ over 20,000 people in Europe and Asia and make significant daily investments in developing new restaurant sites.New restaurant sites take large investments of time and capital to get up and running. When the wrong location for a restaurant brand is chosen, the site closes within 18 months and operating losses are incurred.
