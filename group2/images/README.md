@@ -1,1 +1,1 @@
-These images represents visualizations extracted from the exploratory data analysis(EDA) done
+## These images represents visualizations extracted from the exploratory data analysis(EDA) done
